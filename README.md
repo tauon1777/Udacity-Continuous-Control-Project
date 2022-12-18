@@ -13,7 +13,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 </p>
 
 <p align="center">
-Video of multiple agents playing the Unity ML-Agents Reacher Environment.
+Video of multiple agents interacting with the Unity ML-Agents Reacher Environment.
 </p>
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
