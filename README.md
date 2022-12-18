@@ -13,7 +13,7 @@ The observation space consists of 33 variables corresponding to position, rotati
 </p>
 
 <p align="center">
-Video of multiple agents in the Unity ML-Agents Reacher Environment.
+Video of multiple agents playing the Unity ML-Agents Reacher Environment.
 </p>
 
 The barrier for solving the second version of the environment is slightly different, to take into account the presence of many agents. In particular, your agents must get an average score of +30 (over 100 consecutive episodes, and over all agents). Specifically,
@@ -66,7 +66,7 @@ If needed, additional instructions are located at:
 
 The main function is located in the Navigation.ipynb file. Running the cells in this file will train an agent from scratch. It might be necessary to correct the path to the Reacher environment executable.
 
-The agent trains for 2000 episodes by default, using the same hyperparameters outlined in the report. The performance of the agent should be comparable to the results below.
+The agent trains for 4000 episodes by default, using the same hyperparameters outlined in the report. The performance of the agent should be comparable to the results below.
 
 <p align="center">
   <img src="./assets/DDPG_scores.png" width="600"/>
