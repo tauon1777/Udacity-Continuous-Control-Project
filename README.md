@@ -72,3 +72,4 @@ The agent trains for 4000 episodes by default, using the same hyperparameters ou
   <img src="./assets/DDPG_scores.png" width="600"/>
 </p>
 
+The file all_state_dicts.pt contains the saved network weights and optimizer states of a successfully trained agent.
