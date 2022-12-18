@@ -4,15 +4,16 @@
 
 This project uses deep deterministic policy gradient to teach a robotic arm to balance a ball.
 
+In this environment, a double-jointed arm can move to target locations. A reward of +0.1 is provided for each step that the agent's hand is in the goal location. Thus, the goal of your agent is to maintain its position at the target location for as many time steps as possible.
 
-
+The observation space consists of 33 variables corresponding to position, rotation, velocity, and angular velocities of the arm. Each action is a vector with four numbers, corresponding to torque applicable to two joints. Every entry in the action vector should be a number between -1 and 1.
 
 <p align="center">
-  <img src="./assets/banana.gif" />
+  <img src="./assets/reacher.gif" />
 </p>
 
 <p align="center">
-Video of agent navigating the Unity Banana Collector environment.
+Video of multiple agents in the Unity ML-Agents Reacher Environment.
 </p>
 
 ### Setting up the Repository
@@ -60,6 +61,6 @@ The main function is located in the Navigation.ipynb file. Running the cells in 
 The agent trains for 2000 episodes by default, using the same hyperparameters outlined in the report. The performance of the agent should be comparable to the results below.
 
 <p align="center">
-  <img src="./assets/scores_DQN.png" width="800"/>
+  <img src="./assets/DDPG_scores.png" width="800"/>
 </p>
 
