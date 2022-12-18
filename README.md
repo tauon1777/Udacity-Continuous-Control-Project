@@ -22,7 +22,7 @@ The barrier for solving the second version of the environment is slightly differ
 
 - This yields an average score for each episode (where the average is over all 20 agents).
 
-As an example, consider the plot below, where we have plotted the average score (over all 20 agents) obtained with each episode.
+As an example, consider the plot below, where we have plotted the average score (over all 20 agents) obtained with each episode. The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30.
 
 ### Setting up the Repository
 
